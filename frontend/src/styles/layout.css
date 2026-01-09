@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background: #f8fafc;
+    color: #111827;
+  }
+  
+
+  .app-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+ 
+  .sidenav {
+    width: 240px;
+    background: #0f172a;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .sidenav-logo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  
+  .sidenav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .nav-item {
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #cbd5f5;
+    font-size: 14px;
+  }
+  
+  .nav-item:hover {
+    background: #1e293b;
+  }
+  
+  .nav-item.active {
+    background: #2563eb;
+    color: #ffffff;
+  }
+  
+ 
+  .main-content {
+    flex: 1;
+    padding: 24px;
+  }
+  
