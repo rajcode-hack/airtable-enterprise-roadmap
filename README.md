@@ -1,3 +1,4 @@
+
 # Enterprise Airtable System
 
 An enterprise-grade Airtable-inspired roadmap and visualization platform built using React and Node.js.
@@ -53,5 +54,9 @@ npm start
 
 
 
+
+
+# airtable-enterprise-roadmap
+Enterprise Airtable-style roadmap dashboard (React + Node)
 
 
